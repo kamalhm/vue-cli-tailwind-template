@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1 class="text-6xl font-bold text-green-900">Hello from tailwind</h1>
+    <h1 class="text-6xl font-bold text-purple-900 bg-blue-400">Hello from tailwind</h1>
   </div>
 </template>
 
@@ -13,8 +13,6 @@ export default {
 }
 </script>
 
-<style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities; 
+<style src="./assets/css/tailwind.css">
+
 </style>
