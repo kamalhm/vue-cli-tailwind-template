@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    <h1 class="text-6xl font-bold text-purple-900 bg-blue-400">Hello from tailwind</h1>
+    <HelloWorld/>
   </div>
 </template>
 
 <script>
-
+import HelloWorld from './components/HelloWorld'
 export default {
   name: 'app',
   components: {
+    HelloWorld
   }
 }
 </script>
