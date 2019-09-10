@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <HelloWorld msg="Hello from Tailwind.css"/>
   </div>
 </template>
 
